@@ -1,9 +1,12 @@
-import React from 'react'
+import "./styles/__index.scss";
+import { Post } from "./components";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div className="container">
+      <Post />
+    </div>
+  );
+};
 
-export default App
+export default App;

@@ -1,0 +1,32 @@
+.post {
+
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  padding: 12px;
+  background-color: aqua;
+
+  &__top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  &__user {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    &__name {
+      font-size: var(--fz-3);
+      font-weight: var(--fw-4);
+    }
+  }
+
+  &__time {
+    font-size: var(--fz-1);
+    color: var(--color-3);
+    font-weight: var(--fw-2);
+  }
+}
